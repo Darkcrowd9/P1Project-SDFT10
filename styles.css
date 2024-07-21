@@ -1,0 +1,94 @@
+body {
+    background-color:lightseagreen !important;
+	background-size:auto;
+}
+
+h1 {
+    color: rgb(1, 1, 10);
+    text-align: center;
+	cursor: crosshair;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	text-align: start;
+	color: blue;;
+}
+
+label {
+	color: red;
+}
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+button[type="submit"] {
+	background-color:red;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #650404;
+	color: white;;
+}
+
+button[type="sort"] {
+	background-color: #1ef307;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button[type="sort"]:hover {
+	background-color: #4cc445;
+	color: white;
+}
+
+.upvote-button {
+	background-color: rgb(255, 64, 0);;
+	margin-bottom: 40px;
+}
+
+.downvote-button {
+	background-color: rgb(255, 64, 0);;
+	margin-bottom: 40px;
+}
+
+.game-details {
+	background-color:rgb(246, 165, 5);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.upvote-count {
+	background-color: rgb(255, 153, 1);
+}
